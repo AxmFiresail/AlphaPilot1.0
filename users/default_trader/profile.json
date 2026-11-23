@@ -13,7 +13,7 @@
   },
   "broker": {
     "mode": "oanda",
-    "oanda_token": "e17918b361c3f8e319b8aea6f88c57b5-2eea308e1cf5abf75e67058bb697cb04",
+    "oanda_token": "",
     "oanda_account_id": "brettallenbolton@gmail.com",
     "oanda_env": "live"
   }
