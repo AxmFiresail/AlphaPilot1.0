@@ -1,0 +1,44 @@
+{
+  "balance": 10000.0,
+  "open_position": {
+    "pair": "EUR/USD",
+    "direction": "SELL",
+    "lot_size": 0.1,
+    "entry_price": 1.09739,
+    "entry_time": "2026-11-20 21:50:53",
+    "sl_price": 1.10039,
+    "tp_price": 1.09139,
+    "floating_pips": -1.2,
+    "floating_pnl": -1.2,
+    "current_price": 1.09751
+  },
+  "trade_history": [],
+  "logs": [
+    {
+      "timestamp": "21:50:53",
+      "level": "INFO",
+      "message": "\ud83d\ude80 AUTO ORDER EXECUTED: SELL 0.1 lots EUR/USD @ 1.09739 | SL: 1.10039 | TP: 1.09139"
+    },
+    {
+      "timestamp": "21:52:25",
+      "level": "INFO",
+      "message": "Active strategy updated: EUR/USD Ema Crossover on EUR/USD (PAIR: EUR/USD (1h) | RULE: Fast 20-EMA crosses Slow 50-EMA -> LONG / SHORT [SL: 30.0 pips] [TP: 60.0 pips] | SIZE: 0.1 lots)"
+    }
+  ],
+  "strategy": {
+    "name": "EUR/USD Ema Crossover",
+    "description": "Buy EUR/USD when 20 EMA crosses above 50 EMA, go short when it crosses below, 30 pip stop loss, 60 pip take profit",
+    "pair": "EUR/USD",
+    "timeframe": "1h",
+    "condition_type": "ema_crossover",
+    "params": {
+      "fast": 20,
+      "slow": 50
+    },
+    "stop_loss_pips": 30.0,
+    "take_profit_pips": 60.0,
+    "lot_size": 0.1,
+    "allow_short": true
+  },
+  "updated_at": "2026-11-20 21:52:25"
+}

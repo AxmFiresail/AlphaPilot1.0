@@ -1,0 +1,18 @@
+{
+  "user_id": "sarah",
+  "balance": 25000.0,
+  "open_position": null,
+  "trade_history": [],
+  "logs": [],
+  "strategy": {
+    "id": "strat_1",
+    "name": "EUR/USD Trend Crossover",
+    "prompt": "Buy EUR/USD when 20 EMA crosses above 50 EMA, go short when it crosses below, with 30 pip stop loss and 60 pip take profit",
+    "pair": "EUR/USD",
+    "lot_size": 0.1,
+    "created_at": "2026-11-20 22:30:52",
+    "notes": "Core trend-following setup on 1-hour candles."
+  },
+  "is_running": false,
+  "updated_at": "2026-11-20 22:30:52"
+}

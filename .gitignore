@@ -1,0 +1,23 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and local data caches
+cache/
+cache_forex/
+.cache/
+
+# Local environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit local state
+.streamlit/

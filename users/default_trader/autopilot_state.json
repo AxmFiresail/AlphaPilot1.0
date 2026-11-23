@@ -1,0 +1,219 @@
+{
+  "user_id": "default_trader",
+  "balance": 10187.5,
+  "open_position": {
+    "pair": "EUR/USD",
+    "direction": "SELL",
+    "lot_size": 0.1,
+    "entry_price": 1.09751,
+    "entry_time": "2026-11-22 18:00:54",
+    "sl_price": 1.09976,
+    "tp_price": 1.09413,
+    "initial_sl_pips": 22.5,
+    "initial_tp_pips": 33.8,
+    "floating_pips": -1.2,
+    "floating_pnl": -1.2,
+    "current_price": 1.09763,
+    "is_breakeven": false,
+    "peak_pips": -1.2
+  },
+  "trade_history": [
+    {
+      "entry_time": "2026-11-20 23:02:06",
+      "exit_time": "2026-11-21 06:21:27",
+      "pair": "EUR/USD",
+      "direction": "SELL",
+      "lot_size": 0.1,
+      "entry_price": 1.09739,
+      "exit_price": 1.09139,
+      "reason": "Take Profit Hit",
+      "pips": 60.0,
+      "pnl_usd": 60.0,
+      "balance_after": 10060.0
+    },
+    {
+      "entry_time": "2026-11-21 06:21:37",
+      "exit_time": "2026-11-21 06:22:15",
+      "pair": "EUR/USD",
+      "direction": "SELL",
+      "lot_size": 0.1,
+      "entry_price": 1.09739,
+      "exit_price": 1.09139,
+      "reason": "Take Profit Hit",
+      "pips": 60.0,
+      "pnl_usd": 60.0,
+      "balance_after": 10120.0
+    },
+    {
+      "entry_time": "2026-11-21 06:22:26",
+      "exit_time": "2026-11-21 06:24:24",
+      "pair": "EUR/USD",
+      "direction": "SELL",
+      "lot_size": 0.1,
+      "entry_price": 1.09739,
+      "exit_price": 1.09139,
+      "reason": "Take Profit Hit",
+      "pips": 60.0,
+      "pnl_usd": 60.0,
+      "balance_after": 10180.0
+    },
+    {
+      "entry_time": "2026-11-21 06:24:40",
+      "exit_time": "2026-11-21 06:25:23",
+      "pair": "EUR/USD",
+      "direction": "SELL",
+      "lot_size": 0.1,
+      "entry_price": 1.0849,
+      "exit_price": 1.0879,
+      "reason": "Stop Loss Hit",
+      "pips": -30.0,
+      "pnl_usd": -30.0,
+      "balance_after": 10150.0
+    },
+    {
+      "entry_time": "2026-11-21 06:25:41",
+      "exit_time": "2026-11-22 18:00:09",
+      "pair": "EUR/USD",
+      "direction": "SELL",
+      "lot_size": 0.1,
+      "entry_price": 1.09739,
+      "exit_price": 1.09139,
+      "reason": "Take Profit Hit \ud83c\udfaf",
+      "pips": 60.0,
+      "pnl_usd": 60.0,
+      "balance_after": 10210.0
+    },
+    {
+      "entry_time": "2026-11-22 18:00:19",
+      "exit_time": "2026-11-22 18:00:45",
+      "pair": "EUR/USD",
+      "direction": "SELL",
+      "lot_size": 0.1,
+      "entry_price": 1.0849,
+      "exit_price": 1.08715,
+      "reason": "Stop Loss Hit",
+      "pips": -22.5,
+      "pnl_usd": -22.5,
+      "balance_after": 10187.5
+    }
+  ],
+  "logs": [
+    {
+      "timestamp": "23:02:05",
+      "level": "INFO",
+      "message": "Strategy updated for user [default_trader]: EUR/USD Ema Crossover (PAIR: EUR/USD (1h) | RULE: Fast 20-EMA crosses Slow 50-EMA -> LONG / SHORT [SL: 30.0 pips] [TP: 60.0 pips] | SIZE: 0.1 lots)"
+    },
+    {
+      "timestamp": "23:02:05",
+      "level": "INFO",
+      "message": "\ud83d\udfe2 Autopilot STARTED for user [default_trader]. Monitoring live Forex market."
+    },
+    {
+      "timestamp": "23:02:06",
+      "level": "INFO",
+      "message": "\ud83d\ude80 AUTO ORDER [default_trader]: SELL 0.1L EUR/USD @ 1.09739 | SL: 1.10039 | TP: 1.09139"
+    },
+    {
+      "timestamp": "06:21:27",
+      "level": "INFO",
+      "message": "\ud83c\udfc1 POSITION CLOSED (Take Profit Hit): SELL EUR/USD @ 1.09139 | Pips: +60.0 (+$60.00)"
+    },
+    {
+      "timestamp": "06:21:37",
+      "level": "INFO",
+      "message": "\ud83d\ude80 AUTO ORDER [default_trader]: SELL 0.1L EUR/USD @ 1.09739 | SL: 1.10039 | TP: 1.09139"
+    },
+    {
+      "timestamp": "06:22:15",
+      "level": "INFO",
+      "message": "\ud83c\udfc1 POSITION CLOSED (Take Profit Hit): SELL EUR/USD @ 1.09139 | Pips: +60.0 (+$60.00)"
+    },
+    {
+      "timestamp": "06:22:26",
+      "level": "INFO",
+      "message": "\ud83d\ude80 AUTO ORDER [default_trader]: SELL 0.1L EUR/USD @ 1.09739 | SL: 1.10039 | TP: 1.09139"
+    },
+    {
+      "timestamp": "06:24:24",
+      "level": "INFO",
+      "message": "\ud83c\udfc1 POSITION CLOSED (Take Profit Hit): SELL EUR/USD @ 1.09139 | Pips: +60.0 (+$60.00)"
+    },
+    {
+      "timestamp": "06:24:40",
+      "level": "INFO",
+      "message": "\ud83d\ude80 AUTO ORDER [default_trader]: SELL 0.1L EUR/USD @ 1.08490 | SL: 1.0879 | TP: 1.0789"
+    },
+    {
+      "timestamp": "06:25:23",
+      "level": "INFO",
+      "message": "\ud83c\udfc1 POSITION CLOSED (Stop Loss Hit): SELL EUR/USD @ 1.08790 | Pips: -30.0 ($-30.00)"
+    },
+    {
+      "timestamp": "06:25:41",
+      "level": "INFO",
+      "message": "\ud83d\ude80 AUTO ORDER [default_trader]: SELL 0.1L EUR/USD @ 1.09739 | SL: 1.10039 | TP: 1.09139"
+    },
+    {
+      "timestamp": "17:33:40",
+      "level": "INFO",
+      "message": "Strategy updated for user [default_trader]: EUR/USD Ema Crossover (PAIR: EUR/USD (1h) | RULE: Fast 20-EMA crosses Slow 50-EMA -> LONG / SHORT [SL: 30.0 pips] [TP: 60.0 pips] | SIZE: 0.1 lots)"
+    },
+    {
+      "timestamp": "17:47:20",
+      "level": "INFO",
+      "message": "Strategy updated for user [default_trader]: EUR/USD Ema Crossover (PAIR: EUR/USD (1h) | RULE: Fast 20-EMA crosses Slow 50-EMA -> LONG / SHORT [SL: 40.0 pips] [TP: 80.0 pips] | SIZE: 0.1 lots)"
+    },
+    {
+      "timestamp": "17:47:20",
+      "level": "INFO",
+      "message": "\ud83d\udfe2 Institutional Autopilot ENGAGED for [default_trader]. Profit Guardian Active."
+    },
+    {
+      "timestamp": "18:00:09",
+      "level": "INFO",
+      "message": "\ud83d\udee1\ufe0f PROFIT GUARDIAN: +122.9 pips gained! Stop Loss moved to Breakeven (+1.5 pips @ 1.09724). Risk is now ZERO!"
+    },
+    {
+      "timestamp": "18:00:09",
+      "level": "INFO",
+      "message": "\ud83d\udcc9 TRAILING STOP: Trailing SL down to 1.0869 to lock in profit (122.9 pips running)."
+    },
+    {
+      "timestamp": "18:00:09",
+      "level": "INFO",
+      "message": "\ud83c\udf89 TRADE CLOSED (Take Profit Hit \ud83c\udfaf): SELL EUR/USD @ 1.09139 | Pips: +60.0 (+$60.00) | New Balance: $10,210.00"
+    },
+    {
+      "timestamp": "18:00:19",
+      "level": "INFO",
+      "message": "\ud83d\ude80 AUTO TRADE EXECUTED [default_trader]: SELL 0.1L EUR/USD @ 1.08490 | SL: 1.08715 (22.5 pips) | TP: 1.08152 (33.8 pips)"
+    },
+    {
+      "timestamp": "18:00:45",
+      "level": "INFO",
+      "message": "\ud83d\uded1 TRADE CLOSED (Stop Loss Hit): SELL EUR/USD @ 1.08715 | Pips: -22.5 ($-22.50) | New Balance: $10,187.50"
+    },
+    {
+      "timestamp": "18:00:54",
+      "level": "INFO",
+      "message": "\ud83d\ude80 AUTO TRADE EXECUTED [default_trader]: SELL 0.1L EUR/USD @ 1.09751 | SL: 1.09976 (22.5 pips) | TP: 1.09413 (33.8 pips)"
+    }
+  ],
+  "strategy": {
+    "name": "EUR/USD Ema Crossover",
+    "description": "Trade EUR/USD with profit protection",
+    "pair": "EUR/USD",
+    "timeframe": "1h",
+    "condition_type": "ema_crossover",
+    "params": {
+      "fast": 20,
+      "slow": 50
+    },
+    "stop_loss_pips": 40.0,
+    "take_profit_pips": 80.0,
+    "lot_size": 0.1,
+    "allow_short": true
+  },
+  "is_running": true,
+  "updated_at": "2026-11-22 18:02:13"
+}

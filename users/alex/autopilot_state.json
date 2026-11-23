@@ -1,0 +1,151 @@
+{
+  "user_id": "alex",
+  "balance": 5047.5,
+  "open_position": {
+    "pair": "EUR/USD",
+    "direction": "SELL",
+    "lot_size": 0.05,
+    "entry_price": 1.09739,
+    "entry_time": "2026-11-21 06:26:56",
+    "sl_price": 1.10089,
+    "tp_price": 1.09039,
+    "floating_pips": -1.2,
+    "floating_pnl": -0.6,
+    "current_price": 1.09751,
+    "peak_pips": -1.2
+  },
+  "trade_history": [
+    {
+      "entry_time": "2026-11-20 22:30:54",
+      "exit_time": "2026-11-21 06:21:35",
+      "pair": "EUR/USD",
+      "direction": "SELL",
+      "lot_size": 0.05,
+      "entry_price": 1.09739,
+      "exit_price": 1.09139,
+      "reason": "Take Profit Hit",
+      "pips": 60.0,
+      "pnl_usd": 30.0,
+      "balance_after": 5030.0
+    },
+    {
+      "entry_time": "2026-11-21 06:22:26",
+      "exit_time": "2026-11-21 06:24:13",
+      "pair": "EUR/USD",
+      "direction": "SELL",
+      "lot_size": 0.05,
+      "entry_price": 1.09739,
+      "exit_price": 1.09039,
+      "reason": "Take Profit Hit",
+      "pips": 70.0,
+      "pnl_usd": 35.0,
+      "balance_after": 5065.0
+    },
+    {
+      "entry_time": "2026-11-21 06:25:09",
+      "exit_time": "2026-11-21 06:26:06",
+      "pair": "EUR/USD",
+      "direction": "SELL",
+      "lot_size": 0.05,
+      "entry_price": 1.0849,
+      "exit_price": 1.0884,
+      "reason": "Stop Loss Hit",
+      "pips": -35.0,
+      "pnl_usd": -17.5,
+      "balance_after": 5047.5
+    }
+  ],
+  "logs": [
+    {
+      "timestamp": "22:30:54",
+      "level": "INFO",
+      "message": "\ud83d\udee1\ufe0f Risk Rule: Requested lot size 0.1 capped to user max 0.05 lots."
+    },
+    {
+      "timestamp": "22:30:54",
+      "level": "INFO",
+      "message": "\ud83d\ude80 AUTO ORDER [alex]: SELL 0.05L EUR/USD @ 1.09739 | SL: 1.10039 | TP: 1.09139"
+    },
+    {
+      "timestamp": "23:00:02",
+      "level": "INFO",
+      "message": "Strategy updated for user [alex]: EUR/USD Breakout (PAIR: EUR/USD (1h) | RULE: Price breaks 20-period High/Low -> LONG / SHORT [SL: 35.0 pips] [TP: 70.0 pips] | SIZE: 0.1 lots)"
+    },
+    {
+      "timestamp": "23:00:02",
+      "level": "INFO",
+      "message": "\ud83d\udfe2 Autopilot STARTED for user [alex]. Monitoring live Forex market."
+    },
+    {
+      "timestamp": "06:21:35",
+      "level": "INFO",
+      "message": "\ud83c\udfc1 POSITION CLOSED (Take Profit Hit): SELL EUR/USD @ 1.09139 | Pips: +60.0 (+$30.00)"
+    },
+    {
+      "timestamp": "06:22:26",
+      "level": "INFO",
+      "message": "\ud83d\udee1\ufe0f Risk Rule: Requested lot size 0.1 capped to user max 0.05 lots."
+    },
+    {
+      "timestamp": "06:22:26",
+      "level": "INFO",
+      "message": "\ud83d\ude80 AUTO ORDER [alex]: SELL 0.05L EUR/USD @ 1.09739 | SL: 1.10089 | TP: 1.09039"
+    },
+    {
+      "timestamp": "06:24:13",
+      "level": "INFO",
+      "message": "\ud83c\udfc1 POSITION CLOSED (Take Profit Hit): SELL EUR/USD @ 1.09039 | Pips: +70.0 (+$35.00)"
+    },
+    {
+      "timestamp": "06:25:09",
+      "level": "INFO",
+      "message": "\ud83d\udee1\ufe0f Risk Rule: Requested lot size 0.1 capped to user max 0.05 lots."
+    },
+    {
+      "timestamp": "06:25:09",
+      "level": "INFO",
+      "message": "\ud83d\ude80 AUTO ORDER [alex]: SELL 0.05L EUR/USD @ 1.08490 | SL: 1.0884 | TP: 1.0779"
+    },
+    {
+      "timestamp": "06:26:06",
+      "level": "INFO",
+      "message": "\ud83c\udfc1 POSITION CLOSED (Stop Loss Hit): SELL EUR/USD @ 1.08840 | Pips: -35.0 ($-17.50)"
+    },
+    {
+      "timestamp": "06:26:56",
+      "level": "INFO",
+      "message": "\ud83d\udee1\ufe0f Risk Rule: Requested lot size 0.1 capped to user max 0.05 lots."
+    },
+    {
+      "timestamp": "06:26:56",
+      "level": "INFO",
+      "message": "\ud83d\ude80 AUTO ORDER [alex]: SELL 0.05L EUR/USD @ 1.09739 | SL: 1.10089 | TP: 1.09039"
+    },
+    {
+      "timestamp": "01:42:28",
+      "level": "INFO",
+      "message": "Strategy updated for user [alex]: EUR/USD Price Above Ma (PAIR: EUR/USD (1h) | RULE: Price > 200-SMA -> LONG / SHORT [SL: 40.0 pips] [TP: 80.0 pips] | SIZE: 0.1 lots)"
+    },
+    {
+      "timestamp": "01:42:28",
+      "level": "INFO",
+      "message": "\ud83d\udfe2 Institutional Autopilot ENGAGED for [alex]. Profit Guardian Active."
+    }
+  ],
+  "strategy": {
+    "name": "EUR/USD Price Above Ma",
+    "description": "Institutional EUR/USD Trend & Momentum",
+    "pair": "EUR/USD",
+    "timeframe": "1h",
+    "condition_type": "price_above_ma",
+    "params": {
+      "period": 200
+    },
+    "stop_loss_pips": 40.0,
+    "take_profit_pips": 80.0,
+    "lot_size": 0.1,
+    "allow_short": true
+  },
+  "is_running": true,
+  "updated_at": "2026-11-22 13:41:59"
+}

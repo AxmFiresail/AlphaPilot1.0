@@ -1,0 +1,27 @@
+{
+  "user_id": "default_trader",
+  "cash": 8287.2,
+  "positions": {
+    "AAPL": {
+      "ticker": "AAPL",
+      "shares": 5,
+      "entry_price": 342.56,
+      "entry_time": "2026-11-22 18:01:55",
+      "sl_price": 332.28,
+      "tp_price": 364.83,
+      "is_breakeven": false
+    }
+  },
+  "trade_history": [
+    {
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 5,
+      "price": 342.56,
+      "total": 1712.8,
+      "timestamp": "2026-11-22 18:01:55",
+      "reason": "Signal Entry"
+    }
+  ],
+  "updated_at": "2026-11-22 18:01:55"
+}
